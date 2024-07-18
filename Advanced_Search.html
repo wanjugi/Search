@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Search</title>
+
+    <style>
+        img{
+            position: absolute;
+                left: 7px;
+                top: 13px;
+        }
+    </style>
+
+    <style>
+        h3{
+            color:red;
+            position: absolute;
+                left: 50px;
+                top: 75px;
+            font-family: Arial;
+            font-weight: lighter;
+            font-size: 22px;
+         }
+    </style>
+
+    <style>
+        #link{
+            position: absolute;
+              right: 90px;
+              top: 25px;
+            font-size: 18px;
+            color: black;
+            font-weight: lighter;
+            text-decoration: none;
+            font-family: Arial;
+         }
+        #link:hover{
+            text-decoration: underline;
+         }
+    </style>
+
+    <style>
+        hr {
+          border: 0.5px solid gray;
+          opacity: 0.22;
+          margin-top: 150px;
+         }
+    </style>
+
+    <style>
+        #div1{
+            color:black;
+            position: absolute;
+                left: 50px;
+                top: 200px;
+            font-family: Arial;
+            font-weight: lighter;
+            font-size: 17px;
+         }
+    </style>
+
+    <style>
+        ul {
+          list-style-type: none;
+          padding-left: 0;
+          color:black;
+            position: absolute;
+                left: 50px;
+                top: 230px;
+            font-family: Arial;
+            font-weight: lighter;
+            font-size: 15px;
+        }
+        li {
+          margin-bottom: 30px;
+        }
+    </style>
+
+    <style>
+        #textbox1{
+          position: absolute;
+             left: 260px;
+             top: 237px;
+          height: 25px;
+          width: 575px;
+          border: 1px solid #ccc;
+        }
+        #textbox2{
+          position: absolute;
+             left: 260px;
+             top: 287px;
+          height: 25px;
+          width: 575px;
+          border: 1px solid #ccc;
+        }
+        #textbox3{
+          position: absolute;
+             left: 260px;
+             bottom: 243px;
+          height: 25px;
+          width: 575px;
+          border: 1px solid #ccc;
+        }
+        #textbox4{
+          position: absolute;
+             left: 260px;
+             bottom: 195px;
+          height: 25px;
+          width: 575px;
+          border: 1px solid #ccc;
+        }
+    </style>
+
+    <style>
+        #second{
+            background-color: #4d90fe;
+            color: white;
+            font-family: Arial;
+            position: absolute;
+            position: absolute;
+               left: 693px;
+               bottom: 145px;
+            height: 30px;
+            width: 150px;
+            border: 1px solid #ccc;
+        }
+        #second:hover {
+          background-color: dodgerblue;
+        }
+    </style>
+
+</head>
+<body>
+     <div>
+         <h3>Advanced Search</h3>
+         <hr>
+    </div>
+     <ul>
+        <li>all these words: </li>
+        <li>this exact word or phrase: </li>
+        <li>any of these words: </li>
+        <li>none of these words: </li>
+
+    </ul>
+
+     <div id="div1">
+        Find pages with...
+     </div>
+
+     <form action="https://www.google.com/search" method="get">
+    
+        <input id="textbox1" type="text" name="as_q" value="" placeholder=" ">
+        <input id="textbox2" type="text" name="as_epq" value="" placeholder=" ">
+        <input id="textbox3" type="text" name="as_oq" value="" placeholder= " ">
+        <input id="textbox4" type="text" name="as_eq" placeholder=" ">
+
+        <input id="second" type="submit" value="Advanced Search">
+    </form>
+    <div>
+       <img src="google.jpg" alt="google logo" width="120">
+       <a id="link" href="index.html">Google</a>   
+    </div>
+    
+</body>
+</html>
